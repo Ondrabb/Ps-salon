@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Kanit:wght@500&family=Macondo&family=Montserrat:wght@200;500;700&family=Open+Sans&family=Oswald&family=Poppins&family=Raleway:wght@600&family=Titillium+Web:wght@300&family=Ubuntu&display=swap');
+
+body {
+    background-color: #424040;
+    font-family: 'Poppins', sans-serif;
+    color: #61f10d;
+}
+
+
+nav {
+    overflow: hidden;
+    background-color: #3b9c0e;
+    margin: -8px -6px -40px -10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 35%;
+}
+
+nav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -14px;
+    margin-right: 17px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    transition: 2s;
+    color: rgb(184, 0, 0);
+    /* --p: 100%; */
+}
+
+.main_img {
+    width: 100%;
+    margin: 40px -8px 0px -10px;
+    filter: brightness(40%);
+}
+
+.txtimg {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 440px;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+
+hr{
+    border-top: 3px solid #2c7136;
+}
